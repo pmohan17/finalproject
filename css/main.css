@@ -1,0 +1,110 @@
+html{
+  font-size: 100%
+}
+body{
+  background: #000000;\
+  margin:0;
+}
+p{
+  color:#ffffff;
+}
+#opening{
+  font-size: 60px;
+  font-style: oblique;
+  text-align: center;
+  padding-top: 30px;
+}
+#subheading{
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  max-width: 50%;
+  font-size: 25px;
+  font-style: italic;
+}
+.begin{
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  background-color:#e60000;
+  color:#ffffff;
+  border-radius: 25px;
+  padding: 15px 25px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+#intro{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  font-size: 40px;
+  justify-content: center;
+}
+#myBtn{
+  margin: auto;
+  margin-top: 25px;
+  display: flex;
+  background-color:#ffffff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+}
+#morning{
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  font-size: 40px;
+  justify-content: center;
+}
+.scrollDress{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 5em;
+}
+.whiteBlock{
+  height: 40rem;
+  margin:0;
+  background:#ffffff;
+  max-width: 100%
+  display:inline;
+
+
+}
+#getDressed{
+  margin: auto;
+  padding-top: 2em;
+  text-align: center;
+  color: #000000;
+  font-weight: bold;
+  font-size: 40px;
+}
+.outfitOptions{
+  margin: auto;
+  margin-top: 5em;
+  align-content: space-between;
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.outfit1{
+  border-radius: 25px;
+  padding: 40px 40px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  margin-right: 3em;
+}
+.outfit2{
+  border-radius: 25px;
+  padding: 40px 40px;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  margin-left: 3em;
+}
