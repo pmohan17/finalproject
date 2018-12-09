@@ -2,25 +2,38 @@ html{
   font-size: 100%
 }
 body{
-  background: #000000;\
+background-color: #000000;
+}
+.firstBackground{
+  background-image: url("../images/girlphoto.jpg");
+  height: 100%;
+  background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
   margin:0;
 }
 p{
   color:#ffffff;
 }
+
 #opening{
+  text-shadow: 3px 3px black;
   font-size: 60px;
-  font-style: oblique;
+  color: #FF0000;
+  font-family: 'Unlock', cursive;
   text-align: center;
   padding-top: 30px;
 }
 #subheading{
   display: flex;
+  background-color:#505050;
+  color: #ffffff;
   margin: auto;
   justify-content: center;
   max-width: 50%;
   font-size: 25px;
-  font-style: italic;
+  font-style: oblique;
+  font-weight: 900;
 }
 .begin{
   margin: auto;
@@ -42,69 +55,38 @@ p{
   font-size: 40px;
   justify-content: center;
 }
-#myBtn{
+/*For previous and next button*/
+a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
   margin: auto;
-  margin-top: 25px;
-  display: flex;
-  background-color:#ffffff;
-  border-radius: 25px;
-  padding: 10px 20px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-}
-#morning{
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  width: 40%;
-  font-size: 40px;
-  justify-content: center;
-}
-.scrollDress{
-  margin: auto;
-  display: flex;
-  justify-content: center;
-  margin-top: 5em;
-}
-.whiteBlock{
-  height: 40rem;
-  margin:0;
-  background:#ffffff;
-  max-width: 100%
-  display:inline;
-
 
 }
-#getDressed{
-  margin: auto;
-  padding-top: 2em;
-  text-align: center;
-  color: #000000;
-  font-weight: bold;
-  font-size: 40px;
+
+
+a:hover {
+  background-color: #ddd;
+  color: black;
 }
-.outfitOptions{
-  margin: auto;
-  margin-top: 5em;
-  align-content: space-between;
-  display: flex;
-  justify-content: center;
-  cursor: pointer;
+
+.previous {
+  background-color: #f1f1f1;
+  color: black;
+  position: fixed;
+   bottom: 21px;
+   left: 25px;
 }
-.outfit1{
-  border-radius: 25px;
-  padding: 40px 40px;
+
+.next {
+  background-color: #4CAF50;
+  color: white;
   text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  margin-right: 3em;
+  position: fixed;
+   bottom: 21px;
+   right: 25px;
 }
-.outfit2{
-  border-radius: 25px;
-  padding: 40px 40px;
-  text-align: center;
-  font-size: 16px;
-  cursor: pointer;
-  margin-left: 3em;
+
+.round {
+  border-radius: 50%;
 }
